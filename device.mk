@@ -744,3 +744,4 @@ PRODUCT_COPY_FILES += \
 # Enable zygote critical window.
 PRODUCT_VENDOR_OVERRIDES += \
     zygote.critical_window.minute=10
+$(call inherit-product, vendor/lindroid/lindroid.mk)
